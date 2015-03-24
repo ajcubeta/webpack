@@ -1,0 +1,20 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "Webpack and React",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --colors"
+  },
+  "author": "Andre",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^4.7.16",
+    "babel-loader": "^4.2.0",
+    "webpack": "^1.7.3",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "dependencies": {
+    "react": "^0.13.1"
+  }
+}
